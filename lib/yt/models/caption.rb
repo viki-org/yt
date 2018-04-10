@@ -8,6 +8,7 @@ module Yt
       delegate :language, to: :snippet
       delegate :name, to: :snippet
       delegate :status, to: :snippet
+      delegate :is_draft, to: :snippet
     end
   end
 end
