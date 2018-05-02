@@ -84,7 +84,6 @@ module Yt
       end
 
       def is_url(path_or_url)
-        return false
         pattern = /^(https?|ftp)/i
         pattern.match(path_or_url)
       end
