@@ -44,6 +44,7 @@ module Yt
 
         file.rewind # Read from the beginning
         file.path
+        file
       end
     end
   end
